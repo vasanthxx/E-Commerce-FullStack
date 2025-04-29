@@ -1,0 +1,189 @@
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ------------------- Navbar ------------------- */
+.navbar {
+  background-color: #8ad2ce;
+  padding: 10px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.icon-btn{
+ display: none;
+ align-items: center;
+}
+
+/* Logo */
+.logo {
+  height: 60px;
+  width: 200px;
+}
+
+/* Navigation Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: green;
+}
+
+/* ----------------- Search Bar ----------------- */
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  padding: 8px;
+  width: 200px;
+  font-size: 14px;
+}
+
+.search-bar button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 16px;
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+.search-bar button:hover {
+  color: #007bff;
+}
+
+/* ----------------- Icon Buttons ----------------- */
+.icon-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.icon-btn1,
+.icon-btn2 {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Hover Effects for Icons */
+.icon-btn1:hover {
+  transform: scale(1.2);
+  background: none;
+}
+
+.icon-btn2:hover {
+  transform: scale(1.2);
+  color: #ffdd57;
+}
+
+/* ----------------- Dropdown ----------------- */
+.nav-select {
+  margin-left: 1rem;
+}
+
+.nav-select select {
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  outline: none;
+  cursor: pointer;
+}
+
+.dark-mode .icon-btn1{
+  background: none;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .icon-btn1{
+    font-size: 20px;
+  }
+
+  .icon-buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+ 
+.icon-btn2 {
+    margin-left: -25px;
+    font-size: 20px;
+  }
+
+  .logo {
+    height: 30px;
+    width: 80px;
+  }
+
+  .nav-links {
+    gap: 10px;
+}
+.nav-links  li{
+  font-size: 1px;
+}
+.nav-links {
+  position: fixed;
+  top: 0;
+  right: -300px; 
+  flex-direction: column;
+  background-color: white;
+  width: 250px;
+  height: 100vh;
+  padding: 40px 20px;
+  transition: right 0.5s ease;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+}
+
+
+}

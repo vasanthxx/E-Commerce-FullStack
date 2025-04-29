@@ -1,0 +1,1248 @@
+/* Hero Section */
+
+.hero {
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+ 
+}
+.hero video {
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.hero h1 {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+/* ========hero1========== */
+/* Hero Section Styles */
+.hero1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 70vh;
+  background-color: white;
+  color: #353745;
+  padding: 10px;
+  width: 100%;
+}
+
+.hero1 h4 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.hero1 h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  max-width: 700px;
+}
+
+.hero1 p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.hero1 button,
+.hero button {
+  background: linear-gradient(135deg, #218838, #1e7e34);
+  color: white;
+  font-size: 1.2rem;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero1 button:hover,
+.hero button:hover {
+  transform: scale(1.05);
+}
+
+.header {
+  position: relative;
+  text-align: center;
+}
+.absolute {
+  position: absolute;
+  top: 400px;
+  left: 500px;
+}
+#hero2 {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* -------------- hero3 ------------------ */
+
+#hero3 {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container1 {
+  width: 40%;
+  height: 400px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 38px;
+  color: #353745;
+}
+.container1 p {
+  padding-top: 30px;
+}
+#hero3 .container1 h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.container1 span {
+  color: linear-gradient(135deg, #218838, #1e7e34);
+  font-weight: 800;
+}
+.container2 {
+  width: 40%;
+  height: 400px;
+  background-image: url("/public/images/heroimg5.webp");
+  background-size: cover;
+}
+
+.container3 {
+  width: 40%;
+  height: 400px;
+  background-image: url("/public/images/heroimg4.webp");
+
+  background-size: cover;
+}
+#hero4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+.container44 {
+  width: 45%;
+  height: 400px;
+  background-image: url("/public/images/iphone\ img.jpg");
+  background-size: cover;
+  padding: 20px;
+  text-align: left;
+  color: gainsboro;
+}
+.container55   {
+  width: 45%;
+  height: 400px;
+  background-image: url("/public/images/elecctronic3.jpg");
+  background-size: cover;
+  padding: 20px;
+  text-align: left;
+  color: gainsboro;
+}
+.container55 h4,
+.container44 h4 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.container55 h1,
+.container44 h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 10px 0;
+  color: white;
+  text-align: left;
+}
+
+.container55 button,
+.container44 button {
+  background: #ff3b3b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.container55 button:hover,
+.container44 button:hover {
+  transform: scale(1.05);
+}
+.innertext {
+  padding-top: 40px;
+}
+
+.hero5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 45vh;
+  color: #353745;
+  padding: 10px;
+  background-color: gainsboro;
+  border: none;
+}
+
+.hero5 h1,
+.hero6 h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  max-width: 700px;
+}
+
+.hero5 p,
+.hero6 p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+.hero-container {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+.hero6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 35vh;
+  color: #353745;
+  background-color: gainsboro;
+  padding: 10px;
+  border: none;
+}
+
+/* --------------- grocery section --------------------- */
+#hero7{
+  padding: 15px;
+}
+.grocery-main {
+  display: flex;
+  justify-content: space-evenly;
+}
+.box1 {
+  background-image: url(/public/images/grocery6.jpg);
+  width: 500px;
+  height: 710px;
+  background-size: cover;
+}
+.box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+}
+.small-box1 {
+  background-image: url(/public/images/grocery2.jpg);
+  width: 650px;
+  height: 350px;
+  background-size: cover;
+}
+.small-box2 {
+  background-image: url(/public/images/grocery3.jpg);
+  width: 650px;
+  height: 350px;
+  background-size: cover;
+}
+#hero7 .box-text {
+  color: aquamarine;
+  padding-top: 90%;
+  padding-left: 30px;
+}
+#hero7 .box-text2 {
+  color: aquamarine;
+  padding-top: 100px;
+  padding-left: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+#hero7 .box-text3 {
+  color: #353745;
+  padding-top: 100px;
+  padding-left: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+#hero7 .box-text3 span {
+  color: rgb(5, 239, 5);
+  font-weight: bold;
+  background-color: #353745;
+}
+
+/* ------------- recipes --------------------- */
+.hero8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 60px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: gainsboro;
+  border: none;
+}
+
+.hero8 div {
+  max-width: 600px;
+}
+
+.hero8 h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #353745;
+  margin-bottom: 15px;
+}
+
+.hero8 p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.hero8 button {
+  background: linear-gradient(135deg, #218838, #1e7e34);
+  color: white;
+  font-size: 1.1rem;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.hero8 button:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+#hero9 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #f8f9fa;
+  gap: 20px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+/* Food Images */
+.food1, .food2 {
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.food1 {
+  background-image: url("/public/images/food1.jpg");
+}
+
+.food2 {
+  background-image: url("/public/images/food2.jpg");
+}
+
+.food-text, .food-text2 {
+  max-width: 500px;
+  padding: 20px;
+}
+
+.food-text h1, .food-text2 h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #353745;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 15px;
+  position: relative;
+  display: inline-block;
+}
+
+.food-text h1::after, .food-text2 h1::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background-color: #fff;
+  display: block;
+  margin: 10px auto 0;
+}
+
+.food-text p, .food-text2 p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.food-text span {
+  color: #d9534f;
+  font-weight: bold;
+}
+
+.offer-img{
+  background-image: url("/public/images/offer1.jpg");
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  object-fit: cover;
+}
+#hero10{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.offer-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 250px;
+}
+.offer-text h1{
+  font-size: 40px;
+  color: #353745;
+  line-height: 70px;
+}
+.offer-text h2{
+  font-size: 30px;
+  color: #353745;
+
+}
+.offer-text h3{
+  font-size: 20px;
+  color: #353745;
+  line-height: 40px;
+}
+.hero11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f8f9fa;
+  padding: 50px 20px;
+  text-align: center;
+}
+.text11{
+  width: 1200px;
+  background-color: gainsboro;
+  padding: 20px;
+  
+}
+
+
+.text11 h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.text11 p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.text11 h3 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.text11 h4 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-top: 10px;
+  color: #e10e23; /* Highlighted text */
+}
+
+
+
+
+
+.hero12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f8f9fa;
+  padding: 50px 20px;
+}
+
+.news-letter-image {
+  background-image: url(/public/images/about3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.news{
+  text-align: center;
+}
+
+.news h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.news h4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  max-width: 600px;
+  margin-left: 390px;
+
+}
+
+.input input {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #ddd;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.input input:focus {
+  border-color: #007bff;
+}
+
+.input button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.input button:hover {
+  background: #0056b3;
+}
+
+body.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+.dark-mode .navbar {
+  background-color: #222;
+}
+
+.dark-mode .hero, 
+.dark-mode .hero1, 
+.dark-mode .hero3,
+.dark-mode .hero4,
+.dark-mode .hero5,
+.dark-mode .hero6,
+.dark-mode .hero7,
+.dark-mode .hero8,
+.dark-mode .hero9,
+.dark-mode .hero10,
+.dark-mode .hero11,
+.dark-mode .hero12 {
+  background-color: #333;
+  color: white;
+}
+.dark-mode .hero8-text h1,.dark-mode .hero8-text p{
+  color: white;
+}
+.dark-mode #hero2 ,.dark-mode .container1{
+  background-color: #333;
+  color: white;
+}
+.dark-mode #hero3 ,.dark-mode .container3{
+  background-color: #333;
+  color: white;
+}
+.dark-mode #hero4,.dark-mode ,.dark-mode #hero7,.dark-mode #hero9,.dark-mode .foot-text,.dark-mode .food-text2{
+  background-color: #333;
+  color: white;
+}
+.dark-mode .food-text h1 ,.dark-mode .food-text p, .dark-mode .food-text2 h1,.dark-mode .food-text2 p{
+  color: white;
+}
+.dark-mode #hero10{
+  background-color: #333;
+  color: white;
+
+}
+
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .input {
+    flex-direction: column;
+  }
+
+  .input input,
+  .input button {
+    width: 100%;
+  }
+}
+
+
+/* ------------------- Responsive max-width: 1024px -------------------- */
+
+@media (max-width: 1024px) {
+  .hero h1 {
+    font-size: 40px;
+    
+  }
+  #hero2,
+  #hero3 {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .container1,
+  .container2,
+  .container3 {
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .container2,
+  .container3 {
+    background-position: center;
+  }
+
+  .container1 h2 {
+    font-size: 30px;
+  }
+
+  .container1 p {
+    padding-top: 15px;
+    font-size: 18px;
+  }
+  #hero4 {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .container44,
+  .container55 {
+    width: 90%;
+    height: 300px;
+    background-position: center;
+  }
+
+  .container55 h1,
+  .container44 h1 {
+    font-size: 30px;
+  }
+
+  .container55 h4,
+  .container44 h4 {
+    font-size: 16px;
+  }
+
+  .container55 button,
+  .container44 button {
+    font-size: 13px;
+    padding: 8px 16px;
+  }
+
+  .innertext {
+    padding-top: 20px;
+  }
+  .hero6 {
+    height: auto;
+    padding: 20px;
+  }
+
+  .grocery-main {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .box1 {
+    width: 90%;
+    height: 500px;
+    background-position: center;
+  }
+
+  .box2 {
+    width: 90%;
+  }
+
+  .small-box1,
+  .small-box2 {
+    width: 100%;
+    height: 250px;
+    background-position: center;
+  }
+
+  #hero7 .box-text,
+  #hero7 .box-text2,
+  #hero7 .box-text3 {
+    padding: 20px;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .hero8 h1 {
+    font-size: 36px;
+  }
+
+  .hero8 p {
+    font-size: 1.1rem;
+  }
+
+  .hero8 button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+  #hero9 {
+    flex-direction: column;
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .food1, .food2 {
+    width: 90%;
+    height: 300px;
+  }
+
+  .food-text, .food-text2 {
+    padding: 15px;
+  }
+
+  .offer-img {
+    height: 500px;
+    background-position: center;
+  }
+
+  #hero10 {
+    padding: 20px;
+  }
+
+  .offer-text {
+    padding-top: 150px;
+  }
+
+  .offer-text h1 {
+    font-size: 32px;
+    line-height: 50px;
+  }
+
+  .offer-text h2 {
+    font-size: 24px;
+  }
+
+  .offer-text h3 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .text11 {
+    width: 90%;
+  }
+
+  .text11 h1 {
+    font-size: 2rem;
+  }
+
+  .text11 p {
+    font-size: 1.1rem;
+  }
+
+  .text11 h3 {
+    font-size: 1.3rem;
+  }
+
+  .text11 h4 {
+    font-size: 1rem;
+  }
+  .input {
+    max-width: 90%;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .input input {
+    width: 60%;
+  }
+
+  .input button {
+    width: 35%;
+  }
+  
+}
+
+/* ------------------- Responsive max-width: 768px -------------------- */
+
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .hero{
+    height: 400px;
+    margin-bottom: -100px;
+  }
+  .header{
+    position: relative;
+    text-align: center;
+  }
+  .absolute {
+    position: absolute;
+    top: 70px;
+    left: 50px;
+}
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero1 h1 {
+    font-size: 2rem;
+  }
+
+  .hero1 h4,
+  .hero1 p {
+    font-size: 1rem;
+  }
+
+  .hero1 {
+    padding: 20px;
+    height: auto;
+  }
+
+  .absolute {
+    position: static;
+    transform: none;
+    margin-top: 20px;
+  }
+
+  #hero2,
+  #hero3 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .container1,
+  .container2,
+  .container3 {
+    width: 100%;
+    height: auto;
+  }
+  .container44,
+  .container55 {
+    height: 250px;
+    padding: 15px;
+  }
+
+  .container55 h1,
+  .container44 h1 {
+    font-size: 26px;
+  }
+
+  .container55 h4,
+  .container44 h4 {
+    font-size: 14px;
+  }
+
+  .hero5 h1,
+  .hero6 h1 {
+    font-size: 2rem;
+  }
+
+  .hero5 p,
+  .hero6 p {
+    font-size: 1rem;
+  }
+
+  .hero-container {
+    height: auto;
+  }
+  .hero6 {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .box1,
+  .small-box1,
+  .small-box2 {
+    height: 220px;
+  }
+
+  .box1,
+  .small-box1,
+  .small-box2 {
+    width: 100%;
+  }
+
+  #hero7 .box-text,
+  #hero7 .box-text2,
+  #hero7 .box-text3 {
+    padding: 15px;
+    font-size: 15px;
+  }
+
+  .hero8 h1 {
+    font-size: 28px;
+  }
+
+  .hero8 p {
+    font-size: 1rem;
+  }
+
+  .hero8 button {
+    padding: 8px 16px;
+    font-size: 0.95rem;
+  }
+  .food1, .food2 {
+    height: 250px;
+  }
+
+  .offer-img {
+    height: 400px;
+  }
+
+  .offer-text {
+    padding-top: 100px;
+  }
+
+  .offer-text h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .offer-text h2 {
+    font-size: 20px;
+  }
+
+  .offer-text h3 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .text11 h1 {
+    font-size: 1.8rem;
+  }
+
+  .text11 p {
+    font-size: 1rem;
+  }
+
+  .text11 h3 {
+    font-size: 1.2rem;
+  }
+
+  .text11 h4 {
+    font-size: 0.95rem;
+  }
+  .news-letter-image {
+    height: 250px;
+    padding: 20px;
+    background-position: center;
+  }
+
+  .news h3 {
+    font-size: 20px;
+  }
+
+  .news h4 {
+    font-size: 14px;
+  }
+
+  .input {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 90%;
+  }
+
+  .input input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .input button {
+    width: 100%;
+  }
+}
+
+/* ------------------- Responsive max-width: 480px -------------------- */
+
+
+@media (max-width: 480px) {
+  .hero video {
+    background-size: cover;
+    width: 100%;
+  }
+  .hero{
+    width: 100%;
+    margin-top: -98px;
+  }
+  .hero h1,
+  .hero1 h1 {
+    font-size: 26px;
+  }
+  .hero{
+    height: 400px;
+    margin-bottom: -100px;
+  }
+  .header{
+    position: relative;
+    text-align: center;
+  }
+  .absolute {
+    position: absolute;
+    top: 70px;
+    left: 50px;
+}
+  
+
+  .hero1 h4,
+  .hero1 p,
+  .hero button{
+    font-size: 14px;
+  }
+  .hero1 button,.hero button {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+
+  .container1 p {
+    font-size: 16px;
+  }
+
+
+  .container1 h2 {
+    font-size: 24px;
+  }
+  #hero2 {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container1 {
+  height: 300px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+}
+#hero3 .container1 h2{
+  font-size: 30px;
+}
+.container2,.container3 {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+}
+.container44,
+.container55 {
+  width: 100%;
+  height: 220px;
+  padding: 10px;
+  text-align: center;
+}
+
+.container55 h1,
+.container44 h1 {
+  font-size: 22px;
+  text-align: center;
+}
+
+.container55 h4,
+.container44 h4 {
+  font-size: 13px;
+  text-align: center;
+}
+
+.container55 button,
+.container44 button {
+  font-size: 12px;
+  padding: 6px 12px;
+}
+
+.hero5,
+.hero6 {
+  height: auto;
+  padding: 20px 10px;
+}
+
+.hero5 h1,
+.hero6 h1 {
+  font-size: 1.8rem;
+}
+
+.hero5 p,
+.hero6 p {
+  font-size: 0.95rem;
+}
+.hero6 {
+  padding: 10px;
+  height: auto;
+}
+
+.box1,
+.small-box1,
+.small-box2 {
+  height: 200px;
+  width: 100%;
+}
+
+.box2 {
+  gap: 10px;
+}
+
+#hero7 .box-text,
+#hero7 .box-text2,
+#hero7 .box-text3 {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.hero8 h1 {
+  font-size: 24px;
+}
+
+.hero8 p {
+  font-size: 0.95rem;
+}
+
+.hero8 button {
+  font-size: 0.9rem;
+  padding: 6px 14px;
+}
+#hero9 {
+  padding: 20px 10px;
+}
+
+.food1, .food2 {
+  width: 100%;
+  height: 200px;
+}
+
+.food-text h1, .food-text2 h1 {
+  font-size: 1.4rem;
+}
+
+.food-text p, .food-text2 p {
+  font-size: 1rem;
+}
+
+.offer-img {
+  height: 300px;
+}
+
+.offer-text {
+  padding-top: 80px;
+}
+
+.offer-text h1 {
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.offer-text h2 {
+  font-size: 18px;
+}
+
+.offer-text h3 {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.text11 {
+  padding: 15px;
+}
+
+.text11 h1 {
+  font-size: 1.5rem;
+}
+
+.text11 p {
+  font-size: 0.95rem;
+}
+
+.text11 h3 {
+  font-size: 1rem;
+}
+
+.text11 h4 {
+  font-size: 0.9rem;
+}
+.hero12 {
+  padding: 30px 10px;
+}
+
+.news h3 {
+  font-size: 18px;
+}
+
+.news h4 {
+  font-size: 13px;
+}
+
+.input input,
+.input button {
+  font-size: 14px;
+  padding: 10px;
+}
+
+.news-letter-image {
+  height: 200px;
+  padding: 15px;
+}
+
+}
+
+
+
+

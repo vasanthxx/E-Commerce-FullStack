@@ -1,0 +1,187 @@
+/* Grocery Section Containers */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  width: 80%;
+  height: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Background Images for Grocery */
+.fruits {
+  background-image: url('/public/images/grocery5.jpg');
+}
+
+.vegetables {
+  background-image: url('/public/images/grocery3.jpg');
+}
+
+.staples {
+  background-image: url('/public/images/grocery1.jpg');
+}
+
+/* Shared Styles for Grocery Items */
+.fruits,
+.vegetables,
+.staples {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+}
+
+/* Text Overlay */
+.text1 {
+  position: absolute;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  top: 80px;
+  left: 70px;
+}
+
+.text1 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.text1 h5 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+/* Button Styling */
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #ff4500;
+}
+
+/*-------------------- Responsive Design --------------------*/
+/* Tablet */
+@media (max-width: 1024px) {
+  .main-container {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+  }
+
+  .text1 {
+    top: 60px;
+    left: 50px;
+    padding: 15px;
+  }
+
+  .text1 h2 {
+    font-size: 20px;
+  }
+
+  .text1 h5 {
+    font-size: 14px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .main-container {
+    width: 95%;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .text1 {
+    top: 40px;
+    left: 20px;
+    padding: 10px;
+  }
+
+  .text1 h2 {
+    font-size: 18px;
+  }
+
+  .text1 h5 {
+    font-size: 13px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}
+
+/* iPhone / Small Mobile */
+@media (max-width: 480px) {
+  .main-container {
+    width: 100%;
+    height: auto;
+    margin: 15px auto;
+  }
+
+  .text1 {
+    top: 30px;
+    left: 10px;
+    padding: 8px;
+    border-radius: 8px;
+  }
+
+  .text1 h2 {
+    font-size: 16px;
+  }
+
+  .text1 h5 {
+    font-size: 12px;
+  }
+
+  button {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+}
+
+/*-------------------- Dark Mode --------------------*/
+.dark-mode .main-container {
+  color: white;
+  box-shadow: 0 4px 8px white;
+}
+
+.dark-mode .fruits,
+.dark-mode .vegetables,
+.dark-mode .staples {
+  border: 2px solid #fff;
+}
+
+.dark-mode .text1 h2,
+.dark-mode .text1 h5 {
+  color: white;
+}
+
+.dark-mode button {
+  background-color: #444;
+  color: white;
+}
+
+.dark-mode button:hover {
+  background-color: #666;
+}

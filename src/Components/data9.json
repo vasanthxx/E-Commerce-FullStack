@@ -1,0 +1,63 @@
+[
+     {
+       "id": 1,
+       "title": "50% Off on Fresh Fruits",
+       "description": "Get half price on all fresh fruits this weekend only!",
+       "image": "https://png.pngtree.com/background/20230522/original/pngtree-basket-full-of-fresh-fruits-and-vegetables-picture-image_2693455.jpg"
+     },
+     {
+       "id": 2,
+       "title": "Buy 1 Get 1 Free - Vegetables",
+       "description": "Limited time offer on selected veggies!",
+       "image": "https://img.freepik.com/free-vector/buy-one-get-one-free-sale-banner_1017-28231.jpg"
+     },
+     {
+       "id": 3,
+       "title": "Flat ₹100 Off on Stables",
+       "description": "Save ₹100 on orders of ₹500 or more from the staples category.",
+       "image": "https://cdn.pixabay.com/photo/2022/02/14/09/27/discount-100-7012767_1280.jpg"
+     },
+     {
+       "id": 4,
+       "title": "Up to 40% Off - Kids Fashion",
+       "description": "Cool down with summer beverage discounts!",
+       "image": "https://i.pinimg.com/originals/cf/22/8e/cf228ef9ab1d3de6cda54bb978c49b3b.jpg"
+     },
+     {
+       "id": 5,
+       "title": "Free Delivery on First Order",
+       "description": "No delivery charge for new users on first purchase.",
+       "image": "https://thumbs.dreamstime.com/z/free-delivery-first-order-advertising-emblem-shop-store-special-deal-promotions-to-clients-advertisement-sticker-299380753.jpg"
+     },
+     {
+       "id": 6,
+       "title": "Daily Essentials at ₹99",
+       "description": "Select products from daily essentials now at just ₹99!",
+       "image": "https://c8.alamy.com/comp/2DYXKHN/daily-essentials-small-independent-shop-in-mile-end-road-whitechapel-east-london-england-2DYXKHN.jpg"
+     },
+     {
+       "id": 7,
+       "title": "Combo Pack Deals",
+       "description": "Get more for less with combo packs on groceries.",
+       "image": "https://logomentary.com/assets/images/combo-package/banner-img.png"
+     },
+     {
+       "id": 8,
+       "title": "Mega Savings Week",
+       "description": "Mega discounts across all categories, this week only!",
+       "image": "https://png.pngtree.com/background/20230303/original/pngtree-mega-savings-banner-vector-picture-image_2079588.jpg"
+     },
+     {
+       "id": 9,
+       "title": "Midnight Flash Sale",
+       "description": "Huge discounts every night from 12 AM to 3 AM!",
+       "image": "https://img.freepik.com/premium-vector/midnight-flash-sale-promotion-neon-banner-background_680479-99.jpg?w=2000"
+     },
+     {
+       "id": 10,
+       "title": "5% Cashback on Paytm",
+       "description": "Pay via Paytm wallet and get 5% cashback.",
+       "image": "https://images.freekaamaal.com/featured_images/169513_Paytm-Cashback.jpg"
+     }
+   ]
+   
